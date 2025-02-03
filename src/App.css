@@ -1,0 +1,163 @@
+.logoImg {
+    max-width: 200px;
+}
+
+.active {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.headerBtn {
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin: 15px;
+    color: rgba(255, 255, 255, 0.81);;
+}
+
+.headerBtn:hover {
+    border: 1px solid rgb(234, 76, 134);
+    background-color: rgb(234, 76, 134);
+    color: #fff;
+}
+
+.sidebarNavList {
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+.sidebarLink {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 20px 0 20px 20px;
+    display: block;
+    background-color: #007bff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.sidebarLink:hover {
+    background-color: rgba(0, 123, 255, 0.63);
+}
+
+.mainContent {
+    display: flex;
+    justify-content:space-between;
+}
+
+.leftBlock {
+    max-width: 450px;
+}
+
+.mainImg {
+    max-width: 450px;
+    margin-top: 40px;
+}
+
+.rightBlock {
+    max-width: 460px;
+    background-color: rgba(0, 0, 0, 0.71);
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.titleText {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.textText {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 0 40px;
+}
+
+.mainBtn {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+}
+
+.mainBtn:hover {
+    background-color: rgb(234, 76, 134);
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+}
+
+.marketingCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.cardsTitle {
+    text-align: center;
+    margin: 70px 0 40px;
+    font-size: 28px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cardTitle::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("https://i.pinimg.com/474x/4a/1c/37/4a1c3765811adad52887e325da92bb16.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.cardText {
+    max-width: 200px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 70px 0 40px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.55);
+    padding: 0  0 20px;
+}
