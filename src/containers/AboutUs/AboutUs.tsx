@@ -2,7 +2,7 @@ import TeamCards from '../../components/TeamCards/TeamCards.tsx';
 import Carousel from '../../components/CarouselImage/CarouselImage.tsx';
 
 
-const AboutAs = () => {
+const AboutUs = () => {
   return (
     <div className="container pt-5">
       <Carousel />
@@ -14,4 +14,4 @@ const AboutAs = () => {
   );
 };
 
-export default AboutAs;
+export default AboutUs;

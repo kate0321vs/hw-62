@@ -181,3 +181,10 @@
   background-size: cover;
   margin-right: 10px;
 }
+
+.CountiesList {
+  overflow-y: scroll;
+  height: 680px;
+  width: 310px;
+  border-radius: 10px;
+}

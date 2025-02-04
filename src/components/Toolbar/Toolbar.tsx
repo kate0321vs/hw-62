@@ -12,10 +12,13 @@ const Toolbar = () => {
                   <NavLink to="/" className="nav-link">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/about-as" className="nav-link">About As</NavLink>
+                  <NavLink to="/about-us" className="nav-link">About As</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/contacts" className="nav-link">Contacts</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
                 </li>
               </ul>
             </div>
