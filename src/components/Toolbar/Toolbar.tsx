@@ -14,6 +14,9 @@ const Toolbar = () => {
                 <li className="nav-item">
                   <NavLink to="/about-as" className="nav-link">About As</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink to="/contacts" className="nav-link">Contacts</NavLink>
+                </li>
               </ul>
             </div>
             <div className="btnContainer">

@@ -174,3 +174,10 @@
 .TeamImg{
   max-height: 250px;
 }
+
+.iconImg {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin-right: 10px;
+}
