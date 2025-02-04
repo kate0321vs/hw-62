@@ -150,14 +150,27 @@
 .cardsContainer {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 70px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 70px 0 40px;
+    padding-bottom: 40px;
 }
 
 .footer {
     text-align: center;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.55);
-    padding: 0  0 20px;
+    padding: 40px 0 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 70px 0 0;
+}
+
+.teamImg {
+  background-size: contain;
+  width: 286px;
+}
+
+.carouselImg {
+  width: 100%;
+}
+
+.TeamImg{
+  max-height: 250px;
 }
